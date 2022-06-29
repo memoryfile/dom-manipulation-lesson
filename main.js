@@ -18,12 +18,19 @@ blueh3.style.color = "blue";
 blueh3.setAttribute("style", "color:blue;");
 redContainer.append(blueh3);
 
+const divContainer = document.querySelector("#divContainer");
+
 // Create div
 const quirkyDiv = document.createElement("div");
 quirkyDiv.style.border = "black";
 quirkyDiv.setAttribute("style", "background-color:pink", "border:black");
-redContainer.append(quirkyDiv);
+divContainer.append(quirkyDiv);
 
 const quirkyDiv2 = document.createElement("h1");
 quirkyDiv.innerText = "I'm in a div";
-redContainer.append(quirkyDiv2);
+quirkyDiv.append(quirkyDiv2);
+
+const quirkyDiv3 = document.createElement("p");
+quirkyDiv3.innerText = "ME TOO!";
+quirkyDiv.append(quirkyDiv3);
+
