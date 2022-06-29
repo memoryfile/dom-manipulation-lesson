@@ -23,8 +23,8 @@ const divContainer = document.querySelector("#divContainer");
 // Create div
 const quirkyDiv = document.createElement("div");
 quirkyDiv.style.border = "black";
+quirkyDiv.style.borderStyle = "solid";
 quirkyDiv.setAttribute("style", "background-color:pink", "border:black");
-divContainer.append(quirkyDiv);
 
 const quirkyDiv2 = document.createElement("h1");
 quirkyDiv.innerText = "I'm in a div";
@@ -34,3 +34,4 @@ const quirkyDiv3 = document.createElement("p");
 quirkyDiv3.innerText = "ME TOO!";
 quirkyDiv.append(quirkyDiv3);
 
+divContainer.append(quirkyDiv);
