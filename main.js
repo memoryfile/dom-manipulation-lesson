@@ -22,12 +22,12 @@ const divContainer = document.querySelector("#divContainer");
 
 // Create div
 const quirkyDiv = document.createElement("div");
-quirkyDiv.style.border = "black";
-quirkyDiv.style.borderStyle = "solid";
-quirkyDiv.setAttribute("style", "background-color:pink", "border:black");
+// quirkyDiv.style.border = "thick solid #0000FF";
+// quirkyDiv.style.borderStyle = "solid";
+quirkyDiv.setAttribute("style", "background-color:pink", "border-style:black");
 
 const quirkyDiv2 = document.createElement("h1");
-quirkyDiv.innerText = "I'm in a div";
+quirkyDiv2.innerText = "I'm in a div";
 quirkyDiv.append(quirkyDiv2);
 
 const quirkyDiv3 = document.createElement("p");
