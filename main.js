@@ -24,7 +24,8 @@ const divContainer = document.querySelector("#divContainer");
 const quirkyDiv = document.createElement("div");
 // quirkyDiv.style.border = "thick solid #0000FF";
 // quirkyDiv.style.borderStyle = "solid";
-quirkyDiv.setAttribute("style", "background-color:pink", "border-style:black");
+quirkyDiv.style.cssText = "background-color: pink; border:2px black";
+// quirkyDiv.setAttribute("style", "background-color:pink", "border-style:black");
 
 const quirkyDiv2 = document.createElement("h1");
 quirkyDiv2.innerText = "I'm in a div";
